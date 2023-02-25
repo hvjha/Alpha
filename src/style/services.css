@@ -1,0 +1,81 @@
+h3{
+    top: 4rem;
+    position: relative;
+    text-align: center;
+    font-size: 1.5 rem;
+    padding-top: 25px;
+}
+.contain{
+    position: relative;
+    /* margin-top: 4rem; */
+    top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+.contain .card{
+    height: 20rem;
+    width: 15rem;
+    background: #fff;
+    border: .1rem solid rgba(0,0,0,.1);
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+   
+    /* flex:1 1 13rem ; */
+}
+.card-img-top{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    justify-content: center;
+    margin:.5rem  auto;
+    /* .icons-container .icons img{
+        height: 5rem;
+        margin-right: 1.5rem;
+    } */
+}
+/* .icons-container{
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.icons-container .icons{
+    background: #fff;
+    border: 1rem solid rgba(0,0,0,.1);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex:1 1 23rem ;
+}
+.icons-container .icons img{
+    height: 5rem;
+    margin-right: 1.5rem;
+} */
+.card-text{
+    font-size: 1.2rem;
+    text-align:center;
+}
+#git{
+    text-align: center;
+}
+
+@media(max-width:450px){
+    .contain .card{
+        height: 20rem;
+        width: 20rem;
+        /* background: #fff;
+        border: .1rem solid rgba(0,0,0,.1);
+        padding: .5rem;
+        display: flex;
+        align-items: center; */
+       
+        /* flex:1 1 13rem ; */
+    }
+}

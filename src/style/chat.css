@@ -1,0 +1,14 @@
+.Box{
+    position:fixed;
+    align-items: flex-start;
+    bottom: 1rem;
+    z-index: 1000;
+    right:0;
+   
+}
+.Box button{
+    border-radius: .5rem;
+    padding:.5rem;
+    background: #9f9fda;
+    color: #fff;
+}

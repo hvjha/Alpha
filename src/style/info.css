@@ -1,0 +1,31 @@
+
+.info{ 
+   display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   padding: .5rem; 
+   text-transform: capitalize;
+   /* z-index: .3; */
+   opacity: .7;
+   font-size: .8rem;
+}
+
+.content{
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   justify-content: space-around;
+} 
+
+@media screen and (max-width:450px) {
+   .info .first{
+      display:none;
+      text-align: center;
+   }
+   .content .box span{
+      top:4rem;
+      display: flex;
+      justify-items: auto;
+      color: red;
+   }
+}
